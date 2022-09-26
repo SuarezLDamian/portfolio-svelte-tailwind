@@ -8,7 +8,7 @@
         <li><a href="#projects">Projects</a></li> 
         <li><a href="#technologies">Technologies</a></li> 
         <li><a href="#contact">Contact</a></li></ul></div> 
-    <div class="navbar-end"></div>`,o(e,"class","navbar bg-base-100")},m(n,i){S(n,e,i)},p:k,i:k,o:k,d(n){n&&j(e)}}}class ct extends te{constructor(e){super(),ee(this,e,null,ot,Z,{})}}function at(t){let e;return{c(){e=g("section"),e.innerHTML=`<div class="hero-content flex-col lg:flex-row-reverse"><img src="./hero.jpeg" alt="Profile pic" class="max-w-sm rounded-lg shadow-2xl"/> 
+    <div class="navbar-end"></div>`,o(e,"class","navbar bg-base-100")},m(n,i){S(n,e,i)},p:k,i:k,o:k,d(n){n&&j(e)}}}class ct extends te{constructor(e){super(),ee(this,e,null,ot,Z,{})}}function at(t){let e;return{c(){e=g("section"),e.innerHTML=`<div class="hero-content flex-col lg:flex-row-reverse"><img src="./hero.jpeg" alt="Profile pic" class="max-w-xs rounded-lg shadow-2xl"/> 
       <div class="max-w-lg mx-8 lg:mr-32"><h1 class="text-6xl text-sky-400 font-bold font-karma">Hi, my name is Leonardo.</h1> 
         <p class="text-2xl py-6 font-lato">I&#39;m a Full Stack Web Developer. <br/> Blockchain and finance enthusiast. <br/>
         Transitioning to Web3 to work full time making the Web a more democratic and decentralized space.</p> 
