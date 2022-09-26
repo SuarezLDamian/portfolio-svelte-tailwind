@@ -12,7 +12,7 @@
       <div class="max-w-lg mx-8 lg:mr-32"><h1 class="text-6xl text-sky-400 font-bold font-karma">Hi, my name is Leonardo.</h1> 
         <p class="text-2xl py-6 font-lato">I&#39;m a Full Stack Web Developer. <br/> Blockchain and finance enthusiast. <br/>
         Transitioning to Web3 to work full time making the Web a more democratic and decentralized space.</p> 
-        <a href="#projects" class="btn btn-primary">My projects</a></div></div>`,o(e,"id","hero"),o(e,"class","hero min-h-screen bg-base-200")},m(n,i){S(n,e,i)},p:k,i:k,o:k,d(n){n&&j(e)}}}class rt extends te{constructor(e){super(),ee(this,e,null,at,Z,{})}}function dt(t){let e;return{c(){e=g("section"),e.innerHTML=`<h2 class="text-5xl text-sky-400 font-bold font-lato">About me</h2> 
+        <a href="#projects" class="btn btn-primary">My projects</a></div></div>`,o(e,"id","hero"),o(e,"class","hero py-12 min-h-screen bg-base-200")},m(n,i){S(n,e,i)},p:k,i:k,o:k,d(n){n&&j(e)}}}class rt extends te{constructor(e){super(),ee(this,e,null,at,Z,{})}}function dt(t){let e;return{c(){e=g("section"),e.innerHTML=`<h2 class="text-5xl text-sky-400 font-bold font-lato">About me</h2> 
     <ul class="list-disc sm:mx-6 mt-12 font-lato"><li class="text-xl sm:text-2xl leading-relaxed">Technology and computer enthusiast since I was a child.</li> 
         <li class="text-xl sm:text-2xl leading-relaxed mt-4">In 2015 I entered college (B. S. in Systems Engineering) and got involved in software development.</li> 
         <li class="text-xl sm:text-2xl leading-relaxed mt-4">In 2019 I started my career as a back-end developer using mainly Microsoft technologies such as .NET C#, Entity Framework, SQL Server and IIS.</li> 
