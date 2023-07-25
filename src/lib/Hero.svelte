@@ -2,9 +2,9 @@
 
 </script>
 
-<section id="hero" class="hero min-h-screen bg-base-200">
+<section id="hero" class="hero py-12 min-h-screen bg-base-200">
     <div class="hero-content flex-col lg:flex-row-reverse">
-      <img src="./profile_edit.jpeg" alt="Profile pic" class="max-w-sm rounded-lg shadow-2xl" />
+      <img src="./hero.jpeg" alt="Profile pic" class="max-w-xs rounded-lg shadow-2xl" />
       <div class="max-w-lg mx-8 lg:mr-32">
         <h1 class="text-6xl text-sky-400 font-bold font-karma">Hi, my name is Leonardo.</h1>
         <p class="text-2xl py-6 font-lato">I'm a Full Stack Web Developer. <br> Blockchain and finance enthusiast. <br>

@@ -7,12 +7,10 @@
   import Contact from "./lib/Contact.svelte";
   import GoTopButton from "./lib/GoTopButton.svelte";
   import Footer from "./lib/Footer.svelte";
-  import Personajes from "./lib/Personajes.svelte";
 </script>
 
 <main>
   <Navbar />
-  <!-- <Personajes /> -->
   <Hero />
   <AboutMe />
   <Projects />

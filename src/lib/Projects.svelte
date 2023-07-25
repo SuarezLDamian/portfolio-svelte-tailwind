@@ -7,16 +7,16 @@
       description: "A landing page to mint pieces from a collection of 4,420 NFT artworks.",
       extra: "The Smart Contract is currently deployed on Ethereum Rinkeby testnet.",
       image: "./euphoriaclub.png",
-      technologies: ["TypeScript", "React.js", "Next.js", "Solidity", "Hardhat", "Ethers.js", "Tailwind", "Vercel"],
+      technologies: ["TypeScript", "React.js", "Next.js", "Solidity", "Hardhat", "Ethers.js", "ChakraUI", "Vercel"],
       repository: "https://github.com/SuarezLDamian/euphoria-club-client",
-      link: "https://euphoriaclub.net/",
+      link: "https://euphoria-club-client.vercel.app/",
     },
     {
       title: "NFTicket",
       description: "A DApp to buy NFT tickets for events.",
       extra: "The Smart Contract is currently deployed on Polygon Mumbai testnet.",
       image: "./nfticket.png",
-      technologies: ["TypeScript", "React.js", "Next.js", "Solidity", "Hardhat", "Ethers.js", "Firebase", "GraphQL", "RainbowKit", "ChakraUI", "Vercel"],
+      technologies: ["TypeScript", "React.js", "Next.js", "Solidity", "Hardhat", "Ethers.js", "Firebase", "GraphQL", "RainbowKit", "Tailwind", "Vercel"],
       repository: "https://github.com/SuarezLDamian/nfticket-client",
       link: "https://nfticket-client.vercel.app/",
     },
@@ -32,7 +32,7 @@
 
 <section id="projects" class="py-24 grid place-items-center bg-base-200">
   <h2 class="font-lato text-5xl font-bold text-sky-400 ">My projects</h2>
-  <p class="font-lato text-xl sm:text-2xl px-24 mt-8">
+  <p class="font-lato text-xl sm:text-2xl px-12 mt-8">
     These are some of the most relevant projects I've worked on over the last months.
   </p>
   <div class="mt-12 sm:px-24 grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-16">

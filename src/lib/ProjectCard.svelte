@@ -8,7 +8,7 @@
   export let link:string;
 </script>
 
-<div class="card card-compact w-96 bg-base-100 shadow-xl">
+<div class="card card-compact w-84 bg-base-100 shadow-xl">
     <figure><img src={image} alt="Project" class="max-w-full max-h-56" /></figure>
     <div class="card-body">
       <h2 class="card-title">{title}</h2>

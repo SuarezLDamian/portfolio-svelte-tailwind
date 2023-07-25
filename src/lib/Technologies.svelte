@@ -26,6 +26,10 @@
             name: "React.js"
         },
         {
+            image: "./blazor.png",
+            name: "Blazor"
+        },
+        {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
             name: "React Native"
         },
@@ -48,6 +52,14 @@
         {
             image: "./ethers.svg",
             name: "Ethers.js"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+            name: "Sass"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+            name: "Bootstrap"
         },
         {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
@@ -77,6 +89,14 @@
             name: "TypeScript"
         },
         {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+            name: "Node.js"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+            name: "Express"
+        },
+        {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg",
             name: "C#"
         },
@@ -88,26 +108,6 @@
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg",
             name: ".NET Framework"
         },
-        {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
-            name: "Node.js"
-        },
-        {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
-            name: "Express"
-        },
-        // {
-        //     image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/solidity/solidity-original.svg",
-        //     name: "Solidity"
-        // },
-        // {
-        //     image: "./hardhat.svg",
-        //     name: "Hardhat"
-        // },
-        // {
-        //     image: "./truffle.svg",
-        //     name: "Truffle"
-        // },
     ]
 
     const smartContracts = [
@@ -134,6 +134,10 @@
         {
             image: "./alchemy.png",
             name: "Alchemy"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/polygon/polygon-original.svg",
+            name: "Polygon"
         },
     ]
 
@@ -195,21 +199,42 @@
     ]
 
     const tools = [
-        {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
-            name: "VS Code"
-        },
-        {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
-            name: "Visual Studio"
-        },
+
         {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
             name: "Git"
         },
         {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+            name: "Github"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bitbucket/bitbucket-original.svg",
+            name: "Bitbucket"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg",
+            name: "Jenkins"
+        },
+        {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
             name: "Docker"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg",
+            name: "Jira"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/confluence/confluence-original.svg",
+            name: "Confluence"
+        },
+        {
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg",
+            name: "Trello"
+        },
+        {
+            image: "./notion.svg",
+            name: "Notion"
         },
         {
             image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
@@ -236,12 +261,12 @@
             name: "eslint"
         },
         {
-            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg",
-            name: "Trello"
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+            name: "VS Code"
         },
         {
-            image: "./notion.svg",
-            name: "Notion"
+            image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg",
+            name: "Visual Studio"
         },
         {
             image: "./macos.svg",
@@ -254,7 +279,7 @@
     ]
 </script>
 
-<section id="technologies" class="p-24 grid place-items-center">
+<section id="technologies" class="px-12 py-24 grid place-items-center">
     <h2 class="font-lato text-5xl font-bold text-sky-400">Technologies</h2>
     <p class="font-lato text-xl sm:text-2xl my-8">
         Throughout my career I have used a wide variety of languages, frameworks and tools. <br>
@@ -271,7 +296,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Back-end
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-4 gap-8 place-items-center">
@@ -282,7 +307,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Smart Contracts
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-4 gap-8 place-items-center">
@@ -293,7 +318,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Testing
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-3 gap-8 place-items-center">
@@ -304,7 +329,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Databases
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-3 gap-8 place-items-center">
@@ -315,7 +340,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Infrastructure
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-4 gap-8 place-items-center">
@@ -326,7 +351,7 @@
             </div>
         {/each}
     </div>
-    <p class="font-lato text-2xl sm:text-3xl font-bold text-sky-400">
+    <p class="mt-6 font-lato text-2xl sm:text-3xl font-bold text-sky-400">
         Other tools
     </p>
     <div class="my-12 grid grid-cols-2 sm:grid-cols-4 gap-8 place-items-center">

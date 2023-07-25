@@ -2,6 +2,6 @@
 
 <footer class="footer footer-center p-4 bg-base-300 text-base-content">
     <div>
-      <p>Made with ❤️ and <b>Svelte</b> by me</p>
+      <p>Made with ❤️, <b>Svelte</b> and <b>Tailwind CSS</b></p>
     </div>
 </footer>
